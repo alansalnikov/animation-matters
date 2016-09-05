@@ -1,0 +1,29 @@
+I would like to talk about a topic that doesn't get a lot of attention in the front end development space, and that's animation. Our goal as front end developers should be to make apps and websites that are not just functional, but also feel great to use. Animation enhances the user experience of any application or website when done properly. It can be a huge differentiator for a product, which is important with how competitive the overall software space is.
+
+Now you don't need to make all kinda of flashy animations that try to wow the user. In fact, after the first time most users probably won't care or can even kind it bothersome. To qoute PAscal F : "stuff and jun rpelace with real qoute"
+
+Lets go though some exmaples of many simple animation that you can add to your existing site.
+
+Here's a simple help menu we have in our app. You click the button and a menu appears.
+
+<gif>
+
+This is a pretty common action you see around the web. The sudden appearence is a bit jarring, although not too bad since the background is the same for the menu as the page. Now, lets add a simple transition to have it fade in:
+
+< gif>
+
+much nicer right? All thats dones here is having a nice transition on its opactiy property to have it fade in.
+
+Now lets take a look at a similar idea that is seen all around the web.
+
+<gif of modal>
+
+now this is much more jarring as there is a very large change in color. this is surprisingly common to jsut go form a light background to a very dark one in an instant. now lets do same transition on this modal as we did the menu.
+
+<gif>
+
+much much better. but we can do even better with just a little more.
+
+<gif>
+
+here we added slide effect using a CSS transform. This together with the fade provides better context for the user of what is going on. one of the issues with having something just appear is that a user has to think about what just happened. On the other had with a smooth animation we lead the user's understanding. <add some more stuff read about why this conecpt is important>
