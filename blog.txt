@@ -1,6 +1,7 @@
 I would like to talk about a topic that doesn't get a lot of attention in the front end development space, and that's animation. Our goal as front end developers should be to make apps and websites that are not just functional, but also feel great to use. Animation enhances the user experience of any application or website when done properly. It can be a huge differentiator for a product, which is important with how competitive the overall software space is.
 
-Now you don't need to make all kinda of flashy animations that try to wow the user. In fact, after the first time most users probably won't care or can even kind it bothersome. To qoute PAscal F : "stuff and jun rpelace with real qoute"
+Now you don't need to make all kinda of flashy animations that try to wow the user. In fact, after the first time most users probably won't care or can even find it bothersome. To quote Pasquale D’Silva: "Good animation is invisible. You shouldn’t notice that you’re looking at animation."
+
 
 Lets go though some exmaples of many simple animation that you can add to your existing site.
 

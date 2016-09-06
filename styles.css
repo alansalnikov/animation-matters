@@ -1,0 +1,84 @@
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.DropMenu {
+  display: inline-block;
+  position: relative;
+  margin: 10px 250px 10px 10px;
+}
+
+.DropMenu__button {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 15px 9px;
+}
+
+.DropMenu__container {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 200px;
+}
+
+.DropMenu__container--is-open {
+  opacity: 1;
+}
+
+.DropMenu__item {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+}
+
+.DropMenu__container.animate {
+  transition: all .25s;
+}
+
+.CompareSection {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.ShowModal {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 10px 214px 10px 10px;
+  position: relative;
+  padding: 15px 9px;
+}
+
+
+.Modal__overlay {
+  background: rgba(0,0,0,.75);
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.Modal {
+  background: rgba(0,0,0,.75);
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

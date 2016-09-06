@@ -1,8 +1,52 @@
 <html>
   <head>
-    <link href="css/styles.css"/>
+    <link rel="stylesheet" href="styles.css"/>
   </head>
   <body>
-    
+    <h2>Button menus</h2>
+    <section class="CompareSection">
+      <div class="DropMenu">
+        <button class="DropMenu__button">Help</button>
+        <div class="DropMenu__container">
+          <ul>
+            <li class="DropMenu__item">Documentation</li>
+            <li class="DropMenu__item">Support ticket</li>
+            <li class="DropMenu__item">Terms of Service</li>
+            <li class="DropMenu__item">Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="DropMenu">
+        <button class="DropMenu__button">Help</button>
+        <div class="DropMenu__container animate">
+          <ul>
+            <li class="DropMenu__item">Documentation</li>
+            <li class="DropMenu__item">Support ticket</li>
+            <li class="DropMenu__item">Terms of Service</li>
+            <li class="DropMenu__item">Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="CompareSection">
+      <h2>Modals</h2>
+      <button class="ShowModal" onclick="showRegularModal">Show Modal</button>
+      <button class="ShowModal" onclick="showAnimatedModal">Show Modal Animated</button>
+    </section>
+    <script type="application/javascript">
+      document.querySelectorAll('.DropMenu').forEach(function(el){
+        el.onclick = function() {
+          el.querySelector('.DropMenu__container').classList.toggle('DropMenu__container--is-open');
+        }
+      });
+
+      function showRegularModal () {
+
+      }
+
+      function showAnimatedModal () {
+
+      }
+    </script>
   </body>
 </html>
